@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    </link>
+    <script src="js\script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 onclick="generate()">Idea Generator V1.0</h2>
+            <div class="break"></div>
+            <h1 id="result"></h1>
+        </div>
+        <div class="row">
+            <div class="column">
+                <textarea id="list1"></textarea>
+            </div>
+            <div class="column">
+                <textarea id="list2"></textarea>
+            </div>
+        </div>
+        <div class="center">
+            <div class="button" onclick="generate()">Generate</div>
+        </div>
+        <div class="break"></div>
+        <div class="center" style="padding-top: 30px">A simple idea generator. Just put data into the fields, and it will spit out a random combination.</div>
+        <div class="footer">
+            <a href="https://twitter.com/joelh_art" title="Click Me!" style="text-decoration: none">Made By @joelh_art</a>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!-- IMPROVEMENTS
+
+1. Option for adding/removing lists? (prob 3-4 max)
+2. Stop empty strings from getting into js
+3. Center screen on mobile might not be that friendly
+
+-->
