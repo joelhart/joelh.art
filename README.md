@@ -1,2 +1,2 @@
-# joelhart.github.io
-Test-Site
+# joelh.art
+A repository hosting my personal website.
