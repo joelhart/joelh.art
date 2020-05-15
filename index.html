@@ -1,56 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
-	<style>
-		a:link {
-			position: absolute;
-			z-index: 100;
-			font-family: Helvetica;
-			font-size: 100px;
-			color: black;
-			text-align: center;
-			top: 50%;
-			left: 50%;
-			margin-right: -50%;
-			transform: translate(-50%, -50%);
-			text-decoration: none;
-
-		}
-
-		a:visited {
-			color: black;
-		}
-
-
-		#overlay:hover {
-			color: rgb(135, 187, 142)
-		}
-
-		body {
-			background-color: rgb(159, 231, 168)
-		}
-
-		h1 {
-			font-family: Helvetica;
-			font-size: 100px;
-			color: rgba(0, 0, 0, .02);
-		}
-	</style>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width initial-scale: 1">
 	<title>Joel Hartman</title>
-	<link rel="icon" href="http://www.joelh.art/images/favicon.ico" sizes="any" type="image/gif">
-	<h1>
-		HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART
-		HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART HART
-	</h1>
-	<h1 style="text-decoration:none" id="overlay"><a href="http://joelh.art/projects/idea-generator">Idea Generator</a>
-	</h1>
-
+	<link rel="icon" href="https://github.com/joelhart/joelh.art/blob/master/images/favicon.ico" sizes="any" type="image/jpg">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 900px" )>
+	<link href="https://unpkg.com/pattern.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body class="">
+	<div class="all">
+		<div class="top">
+			<div class="head">Hey,</div>
+			<div class="body">my name is <strong>Joel Hartman</strong></div>
+			<div class="body">and I do things like this...</div>
+		</div>
+
+		<!-- These Should Be Links-->
+		<div class="showcase">
+			<div class="this this-left">
+				<a href="http://joelh.art/projects/time-dash">
+					<img class="img" src="http://joelh.art/images/landing-page/time.gif" alt="Time Dashboard Project">
+				</a>
+			</div>
+			<div class="this this-mid">
+				<a href="http://joelh.art/projects/mountain">
+					<img class="img" src="https://github.com/joelhart/joelh.art/blob/master/images/landing-page/mount.jpg?raw=true" alt="Landscape Project">
+				</a>
+			</div>
+			<div class="this this-right">
+				<a href="http://joelh.art/projects/idea-generator">
+					<img src="https://github.com/joelhart/joelh.art/blob/master/images/landing-page/idea.jpg?raw=true" alt="Idea Generator Project">
+				</a>
+			</div>
+		</div>
+
+		<div class="bottom">
+			<div class="proj">Check out my other
+				<strong>
+					<a href="http://joelh.art/projects">projects &#x2B9F</a>
+				</strong>
+			</div>
+		</div>
+
+		<div class="bottom">Or shoot me
+			<span class="opaque">
+				a follow
+			</span>
+			<a href="https://github.com/joelhart"><span class="fa fa-github"></a></span>
+			<a href="https://twitter.com/joelh_art"><span class="fa fa-twitter"></a></span>
+			<a href="https://www.linkedin.com/in/joel-hartman/"><span class="fa fa-linkedin"></a></span>
+		</div>
+	</div>
+
 </body>
 
 </html>
