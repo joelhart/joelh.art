@@ -64,11 +64,9 @@ div.this-mid {
 img {
     max-width: 255px;
     max-height: 255px;
+    width: 100%;
+    height: 100%;
     display: block;
-}
-
-img:hover {
-    opacity: 85%;
 }
 
 div.img-text {
@@ -84,8 +82,8 @@ div.img-text {
 .bottom {
     margin-top: 1%;
     margin-left: 5%;
-    font-size: 50px;
-    font-weight: 500;
+    /* font-size: 50px; */
+    /* font-weight: 500; */
 }
 
 a {
@@ -106,8 +104,14 @@ a:link, a:visited, a:focus, a{
     margin-right: 10px;
 }
 
-.fa-twitter, .fa-github, .fa-linkedin {
-    margin-right: 10px;
+.fa-instagram {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+}
+
+th, td {
+    border:1px solid black;
 }
 
 
@@ -137,44 +141,4 @@ a:link, a:visited, a:focus, a{
     }
 }
 */
-           
-/* Media Query for Mobile Devices */
-@media (max-width: 480px) {
-    .all {
-        width: 100vw;
-    }
-
-    .top {
-        width: 100%;
-    }
-    
-    div.head {
-        font-size: 50px;
-        font-weight: 900;
-        /* padding-bottom: 10px; */
-    }
-
-    img {
-        max-width: 75vw;
-        max-height: 75vw;
-    }
-}
-    
-/* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
-    .all {
-        width: 90vw;
-    }
-
-    .top {
-        width: 90%;
-    }
-
-    img {
-        width: 60vw;
-        height: 60vw;
-        max-width: 400px;
-        max-height: 400px;
-    }
-}
-    
+        
