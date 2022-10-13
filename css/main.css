@@ -1,16 +1,15 @@
 body {
-    color: grey;
-    background-color: #B9FFC7;
+    background-color: #4abdac;
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .all {
     width: 75vw;
-    max-width: 869px;
+    max-width: 925px;
     float: left;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: black;
 }
 
 div.top {
@@ -24,6 +23,8 @@ div.head {
     font-size: 100px;
     font-weight: 900;
     padding-bottom: 10px;
+    /* color: #fc4a1a; */
+    color: #f7b733;
 }
 
 div.body {
@@ -93,7 +94,7 @@ a {
 }
 
 a:link, a:visited, a:focus, a{
-    color: black;
+    color: #f7b733;
     text-decoration: none;
   }
 
@@ -109,34 +110,6 @@ a:link, a:visited, a:focus, a{
 .fa-twitter, .fa-github, .fa-linkedin {
     margin-right: 10px;
 }
-
-
-/*  
-@media (max-width:781px){
-    .all {
-        width: 90vw;
-    }
-
-    .top {
-        width: 90%;
-    }
-}
-
-@media (max-width:458px){
-    .all {
-        width: 100vw;
-    }
-
-    .top {
-        width: 100%;
-    }
-    
-    div.head {
-        font-size: 50px;
-        font-weight: 900;
-    }
-}
-*/
            
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {

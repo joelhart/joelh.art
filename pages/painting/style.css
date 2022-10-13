@@ -1,16 +1,15 @@
 body {
-    color: grey;
-    background-color: #B9FFC7;
+    color: white;
+    background-color: #4abdac;
     display: flex;
     justify-content: center;
 }
 
 .all {
     width: 75vw;
-    max-width: 869px;
+    max-width: 925px;
     float: left;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: black;
 }
 
 div.top {
@@ -24,6 +23,7 @@ div.head {
     font-size: 100px;
     font-weight: 900;
     padding-bottom: 10px;
+    color: #f7b733;
 }
 
 div.body {
@@ -91,9 +91,19 @@ a {
 }
 
 a:link, a:visited, a:focus, a{
-    color: black;
+    color: #f7b733;
     text-decoration: none;
-  }
+}
+
+.back {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.back:hover {
+    color: white;
+}
 
 .bottom a:hover {
     color: white;
@@ -111,22 +121,12 @@ a:link, a:visited, a:focus, a{
 }
 
 th, td {
-    border:1px solid black;
+    border:1px solid #555555;
 }
 
 
-/*  
-@media (max-width:781px){
-    .all {
-        width: 90vw;
-    }
-
-    .top {
-        width: 90%;
-    }
-}
-
-@media (max-width:458px){
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
     .all {
         width: 100vw;
     }
@@ -138,7 +138,18 @@ th, td {
     div.head {
         font-size: 50px;
         font-weight: 900;
+        /* padding-bottom: 10px; */
     }
 }
-*/
+    
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .all {
+        width: 90vw;
+    }
+
+    .top {
+        width: 90%;
+    }
+}
         
